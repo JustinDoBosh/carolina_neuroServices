@@ -40,3 +40,40 @@ body{
 li:hover{
 	color: #18C2BE;
 }
+.mainContent{
+	font-size: 1em;
+	text-align: justify;
+}
+.featurette-heading{
+	font-size: 1.5em;
+}
+.mainColor{
+	color: #18C2BE;
+}
+.secondaryColor{
+	color:#777;
+}
+#mainImage{
+	background-image: url("../img/cloud.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 40em;
+	background-position: bottom;
+	padding: 0;
+	margin: 0;
+}
+.navbar{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
