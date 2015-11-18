@@ -1,22 +1,38 @@
 body{
 	background-color: #e9e9e9;
 }
+.navbar-nav li{
+	width: 25%;
+}
+.dropdown-menu{
+	width: 100%;
+	padding: 0;
+}
 .dropdown-menu > li{
 	border-bottom: 1px solid grey;
 	padding-bottom: 0.3em;
 	font-weight: 500;
+	width: 100%;
+	text-align: center;
+
 }
 .dropdown-menu>li>a:hover{
 
 	background-color: transparent;
-	color: #18C2BE;
+	color: white;
+}
+.navbar-nav{
+	width: 85%;
+
 }
 .dropdown-menu > li > a{
 	padding-bottom: 0.3em;
+	width: 100%;
 }
 .dropdown-menu > li:nth-child(3){
 	border-bottom: none;
 }
+
 #navbarTitle{
 	color: #18C2BE;
 	font-weight: bold;
@@ -28,6 +44,10 @@ body{
 }
 .container{
 	width: 100%;
+}
+.navbar-header{
+	width: 15%;
+
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
 	color: #18C2BE;
