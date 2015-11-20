@@ -86,14 +86,57 @@ li:hover{
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
+#active{
+	color:#18C2BE;
+}
+.jumbotron {
+background: #a8a8a8;
+color: white;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+.contactInfo{
+	padding-left: 0;
+}
+.contactInfoListItem{
+	list-style: none;
+	margin-top: 0.5em;
+	font-size: 1.2em;
+}
+.contactInfoListItem:hover{
+	color:black;
+}
+.contactInfoListItem a{
+	color:#18C2BE;
+}
+.officeAddress{
+	font-size: 1.2em;
+}
+.contact_us_header{
+	text-align: center;
+	font-size: 1.5em;
+}
+#contact_container{
+	margin-top: 2em;
+}
+.contact-container{
+	margin-top: 5em;
+}
+.contact_page_gmap{
+	width: 100%;
+	height: 30em;
+}
+#contact_page_map{
+	background-image: url("../img/google_map.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 30em;
+	width: 100%;
+}
