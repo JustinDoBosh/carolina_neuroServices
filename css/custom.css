@@ -74,11 +74,11 @@ li:hover{
 	color:#777;
 }
 #mainImage{
-	background-image: url("../img/cloud.jpeg");
+	background-image: url("../img/road.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 30em;
-	background-position: bottom;
+	background-position: center;
 	padding: 0;
 	margin: 0;
 }
