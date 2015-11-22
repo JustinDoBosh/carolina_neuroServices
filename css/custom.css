@@ -3,9 +3,10 @@ body{
 }
 .navbar-nav li{
 	width: 25%;
+	font-size: 1em;
 }
 .dropdown-menu{
-	width: 100%;
+	width: auto;
 	padding: 0;
 }
 .dropdown-menu > li{
@@ -22,7 +23,9 @@ body{
 	color: white;
 }
 .navbar-nav{
-	width: 85%;
+	width: 70%;
+	border: 1px solid black;
+	float: right;
 
 }
 .dropdown-menu > li > a{
@@ -44,11 +47,9 @@ body{
 }
 .container{
 	width: 100%;
+	padding-right: 0;
 }
-.navbar-header{
-	width: 15%;
 
-}
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
 	color: #18C2BE;
 	background-color: transparent;
@@ -139,4 +140,19 @@ font-size: 24px;
 	background-size: contain;
 	height: 30em;
 	width: 100%;
+}
+
+
+@media screen and (max-width: 767px) {
+.navbar-nav{
+	width: 102%;
+	text-align: center;
+}
+.container{
+	padding-left: 0;
+}
+
+
+
+
 }
