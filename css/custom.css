@@ -74,13 +74,17 @@ li:hover{
 	color:#777;
 }
 #mainImage{
-	background-image: url("../img/road.jpeg");
+	background-image: url("../img/building.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 30em;
+	height: 40em;
 	background-position: center;
 	padding: 0;
 	margin: 0;
+}
+.stretch{
+	width: 50%;
+	height: 60%;
 }
 .navbar{
 	margin-bottom: 0;
