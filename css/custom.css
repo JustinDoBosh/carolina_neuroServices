@@ -151,7 +151,10 @@ font-size: 24px;
 .container{
 	padding-left: 0;
 }
-
+.navbar-nav li{
+	width: 100%;
+	font-size: 1em;
+}
 
 
 
