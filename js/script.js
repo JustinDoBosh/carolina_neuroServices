@@ -34,3 +34,7 @@ $(document).ready(function(){
 $(window).resize(function () {
     clickOrHover();
 });
+
+$(document).ready(function(){
+        
+});

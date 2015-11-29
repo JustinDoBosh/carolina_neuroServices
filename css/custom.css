@@ -1,5 +1,30 @@
+@font-face {
+    font-family: SinkinSansTwoThin;
+    src: url(../fonts/SinkinSans-200XLight.otf);
+}
+@font-face {
+    font-family: SinkinSansThreeThin;
+    src: url(../fonts/SinkinSans-300Light.otf);
+}
+@font-face {
+    font-family: SinkinSansFourThin;
+    src: url(../fonts/SinkinSans-400Regular.otf);
+}
+@font-face {
+    font-family: SinkinSansFiveMedium;
+    src: url(../fonts/SinkinSans-500Medium.otf);
+}
+@font-face {
+    font-family: SinkinSansSixBold;
+    src: url(../fonts/SinkinSans-600SemiBold.otf);
+}
+@font-face {
+    font-family: SinkinSansEightBold;
+    src: url(../fonts/SinkinSans-800Black.otf);
+}
 body{
 	background-color: #e9e9e9;
+	font-family: SinkinSansFourThin;
 }
 .navbar-nav li{
 	width: 25%;
@@ -76,7 +101,10 @@ li:hover{
 .secondaryColor{
 	color:#777;
 }
-#mainImage{
+.whoWeHelpPersonaWrapper{
+	margin-bottom: 8em;
+}
+/*#mainImage{
 	background-image: url("../img/colorful_brain.png");
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -85,10 +113,147 @@ li:hover{
 	padding: 0;
 	margin: 0;
 	background-color: white;
+}*/
+.mainTitle{
+	text-align: center;
+	font-size: 3em;
+	font-family: SinkinSansSixBold;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 4em;
+	margin-bottom: 2em;
+}
+#howTitle{
+	/*color:rgb(60,139,164);*/
+	color:white;
+	margin-bottom: 2em;
+	margin-top: 8em;
+}
+.roadMapToRecovery{
+	height: 35em;
+}
+.roadMapToRecoveryStep{
+	color:white;
+	margin-bottom: 0;
+	margin-top: 2.55em;
+	margin-left: 10%;
+}
+.howWeHelpExplainerTxt{
+	color:white;
+	text-align: center;
+	margin-bottom: 5em;
+}
+.RoadMapToRecoveryStart{
+	height: 125px;
+	width:125px;
+	background-color:#FD1847;
+	color: white;
+	text-align: center;
+	position: relative;
+	margin-right: 0;
+	z-index: 100;
+
+}
+.R2CbottomLine{
+	text-align: center;
+}
+.hideSteps{
+	visibility: hidden;
+}
+.showSteps{
+	display: block;
+}
+.RoadMapToRecoveryEnd{
+	float: right;
+	height: 125px;
+	width:125px;
+	background-color: rgba(105,198,235,1);
+	color: white;
+	text-align: center;
+	position: relative;
+	z-index: 100;
+}
+.RoadMapToRecoveryStart > p{
+	position: absolute;
+	bottom: 30%;
+	left:30%;
+	font-family:SinkinSansSixBold;
+	text-shadow: 1px 1px #000;
+}
+#R2CbottomLineConsoltation{
+	margin-left: 3.3em;
+}
+#R2CbottomLineEvaluation{
+	margin-left: 2.8em;
+}
+#R2CbottomLineRecommendation{
+	margin-left: 4.5em;
+}
+#R2CbottomLineAction{
+	margin-left: 1.7em;
+}
+.recoveryBoxLine{
+	border: 0.25em solid white;
+	margin-top: 5em;
+	padding: 0;
+	z-index: 2;
+	width: 97%;
+	margin-left: 1em;
+}
+.RoadMapToRecoveryEnd > p{
+	position: absolute;
+	bottom: 30%;
+	left:18%;
+	font-family:SinkinSansSixBold;
+	text-shadow: 1px 1px #000;
+}
+.whoWeHelpPersonaContainer{
+	/*border: 2px solid black;*/
+	height: auto;
+	text-align: center;
+}
+.whoWeHelpTitle{
+	font-family: SinkinSansFiveMedium;
+	color: white;
+	font-size: 1.25em;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+	text-align: center;
+	line-height: 1.3em;
+}
+#howWeHelp{
+	background-image: url("../img/roadmaptorecovery.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0;
+	background-position: bottom;
+}
+.whoWeHelpList{
+	padding: 0;
+	margin-left: 30%;
+	/*border: 2px solid white;*/
+	margin-bottom: 5em;
+}
+.whoWeHelpList > li{
+	list-style: none;
+	text-align: left;
+	font-weight: 600;
+	margin-top: 0.5em;
+}
+.whoWeHelpList > li:hover{
+	color: black;
+}
+.whoWeHelpList > li > span{
+	color:white;
 }
 .stretch{
 	width: 50%;
 	height: 60%;
+}
+.blackOverlay{
+	background: rgba(0, 0, 0, 0.3);
+	margin: 0;
+	padding: 0;
 }
 .navbar{
 	margin-bottom: 0;
@@ -97,6 +262,23 @@ li:hover{
 #active{
 	color:#18C2BE;
 }
+.mainContentContainer{
+	padding: 0;
+}
+
+#howWeCanHelp{
+	color:rgb(60,139,164);
+}
+#whoWeHelp{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3c8ba4+0,69c6eb+100 */
+background: rgb(60,139,164); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(60,139,164,1) 0%, rgba(105,198,235,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(60,139,164,1) 0%,rgba(105,198,235,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(60,139,164,1) 0%,rgba(105,198,235,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c8ba4', endColorstr='#69c6eb',GradientType=0 ); /* IE6-9 */
+
+}
+
 .jumbotron {
 background: #a8a8a8;
 color: white;
@@ -156,6 +338,35 @@ font-size: 24px;
 	background-color: white;
 	color:#18C2BE;
 	border: 1px solid #18C2BE;
+}
+
+@media screen and (max-width: 1500px) {
+	#roadMapToRecoveryStepOne{
+		margin-left: 5%;
+	}
+	#roadMapToRecoveryStepFour{
+		float: right;
+		margin-right: 5%;
+	}
+	.whoWeHelpList{
+		margin-left: 0;
+		width: 80%;
+		margin-left: 10%;
+	}
+	.whoWeHelpList > li{
+		text-align: center;
+	}
+@media screen and (max-width: 1200px) {
+	#headInjury{
+		width: 100%;
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 993px) {
+	#headInjury{
+		visibility: hidden;
+	}
+	
 }
 @media screen and (max-width: 767px) {
 	.navbar-nav{
