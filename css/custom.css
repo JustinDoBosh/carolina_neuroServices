@@ -317,7 +317,7 @@ font-size: 24px;
 	margin-top: 2em;
 }
 .contact-container{
-	margin-top: 0;
+	margin-top: 3em;
 }
 .contact_page_gmap{
 	width: 100%;
@@ -326,7 +326,7 @@ font-size: 24px;
 #contact_page_map{
 	background-image: url("../img/google_map.png");
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	height: 25em;
 	width: 100%;
 }
@@ -338,6 +338,14 @@ font-size: 24px;
 	background-color: white;
 	color:#18C2BE;
 	border: 1px solid #18C2BE;
+}
+
+#mainBanner{
+	height: 45em;
+	background-image: url("../img/building.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 @media screen and (max-width: 1500px) {
