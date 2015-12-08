@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -29,8 +29,8 @@
           <li class="dropdown">
         <a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>       
         <ul class="dropdown-menu" role="menu">
-                 <li class="hvr-shutter-out-horizontal"><a href="services.html#Therapy">Therapy</a></li>
-                <li class="hvr-shutter-out-horizontal"><a href="services.html#Testing">Testing</a></li>
+                 <li class="hvr-shutter-out-horizontal"><a href="services.html#Testing">Testing</a></li>
+                <li class="hvr-shutter-out-horizontal"><a href="services.html#Therapy">Therapy</a></li>
                 <li class="hvr-shutter-out-horizontal"><a href="services.html#Concussion_Management">Concussion Management</a></li>
               </ul>                
             </li>
@@ -38,12 +38,17 @@
         <a href="patient-resources.html" class="dropdown-toggle" data-toggle="dropdown">Patients <span class="caret"></span></a>        
         <ul class="dropdown-menu" role="menu">
                 <li class="hvr-shutter-out-horizontal"><a href="patient-resources.html#Appointments">Appointments</a></li>
-                <li class="hvr-shutter-out-horizontal"><a href="patient-resources.html#Insurance">Insurance</a></li>
-                <li class="hvr-shutter-out-horizontal"><a href="patient-resources.html#Forms">Forms</a></li>
+                <li class="hvr-shutter-out-horizontal"><a href="patient-resources.html#Insurance">Insurance Info</a></li>
+                <li class="hvr-shutter-out-horizontal"><a href="patient-resources.html#Faq">FAQ</a></li>
               </ul>                
             </li>
-            <li><a href="physician-resources.html">Physicians </a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+        <a href="physician-resources.html" class="dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+                <li class="hvr-shutter-out-horizontal"><a href="resources.html#Forms">Downloadable Forms</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
         </ul>
         
     </div><!-- /.navbar-collapse -->
@@ -110,9 +115,10 @@
             <legend><span class="glyphicon glyphicon-home"></span> Our office</legend>
             <address class="officeAddress">
                 <strong>Carolina NeuroServices</strong><br>
-                6853 Fairview Rd.-Suite B<br>
+                6853 Fairview Rd. Suite B<br>
                 Charlotte, NC 28210<br>
             </address>
+            <p>Click <a href="img/directions.pdf" target="_blank">here</a> for printable directions</p>
             <ul class="contactInfo">
               <li class="contactInfoListItem"><span class="glyphicon glyphicon-phone-alt"> </span> 704-366-9930</li>
               <li class="contactInfoListItem"><span class="glyphicon glyphicon-print"> </span> 704-366-9931</li>
