@@ -25,6 +25,7 @@
 body{
 	background-color: #e9e9e9;
 	font-family: SinkinSansFourThin;
+	margin-top: 52px;
 }
 .navbar-nav li{
 	width: 25%;
@@ -123,12 +124,63 @@ li:hover{
 	margin-top: 4em;
 	margin-bottom: 2em;
 }
+#mainBanner{
+	height: 53em;
+	background-image: url("../img/mountains.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 #howTitle{
 	/*color:rgb(60,139,164);*/
 	color:white;
 	margin-bottom: 2em;
 	margin-top: 8em;
 }
+
+.ewertBioLeft {
+	height: 55em;
+}
+
+#ewertBioPic {
+	background-image: url("../img/Ewert.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.ewertBioRight {
+	height: 55em;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#627d4d+0,1f3b08+100;Olive+3D */
+background: rgb(98,125,77); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(98,125,77,1) 0%,rgba(31,59,8,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(98,125,77,1) 0%,rgba(31,59,8,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#1f3b08',GradientType=0 ); /* IE6-9 */
+;
+}
+
+.ewertTitle {
+	color: white;
+	font-family: SinkinSansSixBold;
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 4em;
+	padding-bottom: 1em;
+}
+
+.ewertExplainerTxt{
+	color: white;
+	text-align: center;
+	padding-top: 2em;
+	padding-left: 4em;
+	padding-right: 4em;
+	padding-bottom: 2em;
+}
+
 .roadMapToRecovery{
 	height: 35em;
 }
@@ -340,13 +392,6 @@ font-size: 24px;
 	border: 1px solid #18C2BE;
 }
 
-#mainBanner{
-	height: 53em;
-	background-image: url("../img/CNSbuilding.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
 
 @media screen and (max-width: 1500px) {
 	#roadMapToRecoveryStepOne{
