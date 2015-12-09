@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
     font-family: SinkinSansTwoThin;
     src: url(../fonts/SinkinSans-200XLight.otf);
@@ -22,11 +24,13 @@
     font-family: SinkinSansEightBold;
     src: url(../fonts/SinkinSans-800Black.otf);
 }
+/* Main Body */
 body{
 	background-color: #e9e9e9;
 	font-family: SinkinSansFourThin;
 	margin-top: 52px;
 }
+/* Navbar */
 .navbar-nav li{
 	width: 25%;
 	font-size: 1em;
@@ -105,16 +109,9 @@ li:hover{
 .whoWeHelpPersonaWrapper{
 	margin-bottom: 8em;
 }
-/*#mainImage{
-	background-image: url("../img/colorful_brain.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	height: 30em;
-	background-position: center;
-	padding: 0;
-	margin: 0;
-	background-color: white;
-}*/
+
+/* Who We Are Section Begin */
+
 .mainTitle{
 	text-align: center;
 	font-size: 3em;
@@ -126,24 +123,80 @@ li:hover{
 }
 #mainBanner{
 	height: 53em;
-	background-image: url("../img/mountains.jpeg");
+	background-image: url("../img/CNSbuilding.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
+.whoWeAreTransparent {
+	background-image: url("../img/white.png");
+    border: 1px solid black;
+    opacity: 0.6;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+.whoWeAreTitle {
+	text-align: center;
+	font-size: 3em;
+	font-family: SinkinSansSixBold;
+	color: solid black;
+	opacity: 1;
+	text-transform: uppercase;
+	margin-top: 1em;
+}
+.whoWeAreExplainerTxt {
+	color: solid black;
+	opacity: 1;
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+/* Who We Are Section End */
+
+
+
+/* What We Do Section Begin*/
+
+.whatWeDoTitle{
+	font-family: SinkinSansFiveMedium;
+	color: white;
+	font-size: 1.25em;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+	text-align: center;
+	line-height: 1.3em;
+}
 #howTitle{
 	/*color:rgb(60,139,164);*/
 	color:white;
 	margin-bottom: 2em;
-	margin-top: 8em;
+	margin-top: 4em;
+}
+.howWeHelpExplainerTxt {
+	color: white;
+	text-align: center;
+	margin-bottom: 5em;
+}
+.whoWeHelpPersonaContainer{
+	/*border: 2px solid black;*/
+	height: auto;
+	text-align: center;
 }
 
-.ewertBioLeft {
-	height: 55em;
-}
+
+
+
+
+
+
+
+
+/* Dr. Ewert Bio/Picture Begin*/
+
 
 #ewertBioPic {
+	height: 55em;
 	background-image: url("../img/Ewert.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -152,14 +205,7 @@ li:hover{
 
 .ewertBioRight {
 	height: 55em;
-
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#627d4d+0,1f3b08+100;Olive+3D */
-background: rgb(98,125,77); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(98,125,77,1) 0%,rgba(31,59,8,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(98,125,77,1) 0%,rgba(31,59,8,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#1f3b08',GradientType=0 ); /* IE6-9 */
-;
+	background-color: #556B2F;
 }
 
 .ewertTitle {
@@ -181,6 +227,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', end
 	padding-bottom: 2em;
 }
 
+
+/* Dr. Ewert Bio/Picture End*/
+
+
 .roadMapToRecovery{
 	height: 35em;
 }
@@ -189,11 +239,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', end
 	margin-bottom: 0;
 	margin-top: 2.55em;
 	margin-left: 10%;
-}
-.howWeHelpExplainerTxt{
-	color:white;
-	text-align: center;
-	margin-bottom: 5em;
 }
 .RoadMapToRecoveryStart{
 	height: 125px;
@@ -259,20 +304,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', end
 	font-family:SinkinSansSixBold;
 	text-shadow: 1px 1px #000;
 }
-.whoWeHelpPersonaContainer{
-	/*border: 2px solid black;*/
-	height: auto;
-	text-align: center;
-}
-.whoWeHelpTitle{
-	font-family: SinkinSansFiveMedium;
-	color: white;
-	font-size: 1.25em;
-	margin-top: 1.5em;
-	margin-bottom: 1em;
-	text-align: center;
-	line-height: 1.3em;
-}
+
+/* Roadmap To Recovery Section End*/
+
 #howWeHelp{
 	background-image: url("../img/roadmaptorecovery.jpeg");
 	background-repeat: no-repeat;
@@ -322,14 +356,147 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', end
 	color:rgb(60,139,164);
 }
 #whoWeHelp{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3c8ba4+0,69c6eb+100 */
-background: rgb(60,139,164); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(60,139,164,1) 0%, rgba(105,198,235,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(60,139,164,1) 0%,rgba(105,198,235,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(60,139,164,1) 0%,rgba(105,198,235,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c8ba4', endColorstr='#69c6eb',GradientType=0 ); /* IE6-9 */
-
+	background-color: #008B8B;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Begin Services Page */
+
+/* Begin Testing Section */
+
+.testingContainer{
+	background-color: white;
+	font-color: black;
+}
+.testingTitle{
+	text-align: center;
+	font-size: 1.5em;
+	font-family: SinkinSansSixBold;
+	color: black;
+	text-transform: uppercase;
+	margin-top: 4em;
+	margin-bottom: 2em;
+}
+.whatIsTesting{
+	text-align: center;
+	text-transform: uppercase;
+}
+.testingExplainerTxt{
+	text-align: left;
+}
+
+/* Begin Therapy Section */
+
+.therapyContainer{
+	background-color: white;
+	font-color: black;
+}
+.therapyTitle{
+	text-align: center;
+	font-size: 1.5em;
+	font-family: SinkinSansSixBold;
+	color: black;
+	text-transform: uppercase;
+	margin-top: 4em;
+	margin-bottom: 2em;
+}
+.whatIsTherapy{
+	text-align: center;
+}
+.therapyExplainerTxt{
+	text-align: left;
+}
+
+/* Begin Concussion Section */
+
+.concussionContainer{
+	background-color: white;
+	font-color: black;
+}
+
+.concussionTitle{
+	text-align: center;
+	font-size: 1.5em;
+	font-family: SinkinSansSixBold;
+	color: black;
+	text-transform: uppercase;
+	margin-top: 4em;
+	margin-bottom: 2em;
+}
+
+
+
+
+
+
+
+/* Begin Appointments Section*/
+
+.appointmentContainer{
+	background-color: white;
+	font-color: black;
+}
+.appointmentTitle{
+	text-align: center;
+	font-size: 1.5em;
+	font-family: SinkinSansSixBold;
+	color: black;
+	text-transform: uppercase;
+	margin-top: 4em;
+	margin-bottom: 2em;
+}
+#appointmentList{
+	list-style-type:square;
+}
+.insuranceContainer{
+	
+}
+
+
+
+
+
+
+
+
+
+
+/* Begin Resources Pg*/
+
+.resourcesContainer{
+	background-color: white;
+	text-align: center;
+}
+.patientForms{
+	text-align: center;
+	font-size: 1.25em;
+	margin-top: 4em;
+	margin-bottom: 4em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+
+
+
+
 
 .jumbotron {
 background: #a8a8a8;
@@ -391,6 +558,9 @@ font-size: 24px;
 	color:#18C2BE;
 	border: 1px solid #18C2BE;
 }
+
+
+
 
 
 @media screen and (max-width: 1500px) {
