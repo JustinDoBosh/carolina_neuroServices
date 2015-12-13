@@ -1,0 +1,21 @@
+<section>
+  <div class="testingContainer col-lg-12">
+    <a name="Testing" class="servicesTitle">Neuropsychological Testing & Evaluation</a>
+
+    <h5 class="servicesHead">What Is Neuropsych Testing?</h5>
+      <p class="servicesExplainerTxt">At Carolina NeuroServices, we offer several comprehensive neuropsychological test batteries to assess cognitive functioning, aid in diagnosis, and guide in the treatment of an individual patient.  Neuropsych testing is an all day process in which the patient will be given a variety of tasks to complete in order to be able to identify neurocognitive impairment, specifically assessing various domains of cognitive functioning such as attention, memory, motor skills, visual perception, executive functioning, language, intelligence (IQ), motor skills, tactile functioning, and personality.  Pediatric and adolescent evaluations are available for those ages 4 - 17 years, and adult evaluations are available for those 18 – 80 + years of age.  If you are interested in receiving neuropsych testing, please call our office to inquire and set up your initial consultation.</p>
+
+    <h5 class="servicesHead">What To Expect</h5>
+      <p class="servicesExplainerTxt">On the day of your testing, you will meet with one of our psychometrists who will administer the testing battery. All testing services begin promptly at 8am and typically end around 4pm, so be sure to get a good night of rest the night before. There is a 10 - 15 minute break around 10am, as well as an hour break from 12pm - 1pm for lunch. Upon the end of the testing session, patients may schedule their follow up appointment with Dr. Ewert, who will go over the results one-on-one and also address the options available to the patient at that time.</p>
+
+    <h5 class="servicesHead">Preparation</h5>
+      <p class="servicesExplainerTxt">Be sure to bring snacks and water to help avoid fatigue throughout the testing session, as the process is time intensive and minimal breaks are given upon request. Wear comfortable clothing, and consider dressing in layers as the temperature of the office may fluctuate throughout the day. A family member or friend may be asked to accompany the patient on the day of testing, as they may need to complete forms regarding the patient to assist with the overall evaluation.</p>
+
+  </div>
+</section> <!-- End of Testing Section -->
+
+
+<section class="servicesContainer">
+  <center><h2 class="servicesSectionTitle">NEUROPSYCHOLOGICAL TESTING & EVALUATION</h2></center>
+  
+</section>

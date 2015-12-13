@@ -108,6 +108,7 @@ li:hover{
 }
 .whoWeHelpPersonaWrapper{
 	margin-bottom: 8em;
+	height: auto;
 }
 
 /* Who We Are Section Begin */
@@ -116,9 +117,9 @@ li:hover{
 	text-align: center;
 	font-size: 3em;
 	font-family: SinkinSansSixBold;
-	color: white;
+	color: #18C2BE;
 	text-transform: uppercase;
-	margin-top: 4em;
+	margin-top: 2em;
 	margin-bottom: 2em;
 }
 #mainBanner{
@@ -130,10 +131,9 @@ li:hover{
 }
 
 .whoWeAreTransparent {
-	background-image: url("../img/white.png");
+	background-color:rgba(225,225,225,0.8);
     border: 1px solid black;
-    opacity: 0.6;
-    margin-top: 3em;
+    margin-top: 7em;
     margin-bottom: 2em;
 }
 .whoWeAreTitle {
@@ -144,12 +144,14 @@ li:hover{
 	opacity: 1;
 	text-transform: uppercase;
 	margin-top: 1em;
+	margin-bottom: 0.7em;
 }
 .whoWeAreExplainerTxt {
 	color: solid black;
-	opacity: 1;
 	text-align: center;
 	margin-bottom: 3em;
+	line-height: 1.8em;
+	font-size: 1.1em;
 }
 
 /* Who We Are Section End */
@@ -157,12 +159,23 @@ li:hover{
 
 
 /* What We Do Section Begin*/
-
+.wwDContainer{
+	/*border: 2px solid red;*/
+}
 .whatWeDoTitle{
 	font-family: SinkinSansFiveMedium;
-	color: white;
+	color: #18C2BE;
 	font-size: 1.25em;
 	margin-top: 1.5em;
+	margin-bottom: 0.7em;
+	text-align: center;
+	line-height: 1.3em;
+}
+.whatWeDoSubTitle{
+	font-family: SinkinSansFiveMedium;
+	color: #18C2BE;
+	font-size: 1.25em;
+	margin-top: 0;
 	margin-bottom: 1em;
 	text-align: center;
 	line-height: 1.3em;
@@ -179,7 +192,6 @@ li:hover{
 	margin-bottom: 5em;
 }
 .whoWeHelpPersonaContainer{
-	/*border: 2px solid black;*/
 	height: auto;
 	text-align: center;
 }
@@ -214,11 +226,13 @@ li:hover{
 
 .ewertExplainerTxt{
 	color: white;
-	text-align: center;
+	text-align: left;
 	padding-top: 2em;
 	padding-left: 4em;
 	padding-right: 4em;
 	padding-bottom: 2em;
+	font-size: 1.1em;
+	line-height: 1.95em;
 }
 
 
@@ -350,7 +364,7 @@ li:hover{
 	color:rgb(60,139,164);
 }
 #whoWeHelp{
-	background-color: #008B8B;
+	background-color: #f8f8f8;
 }
 
 
@@ -363,15 +377,45 @@ li:hover{
 /* Begin Services Page */
 
 /* Begin Testing Section */
-
-.servicesTitle{
+.servicesContainer{
+	padding: 10px;
+	margin-bottom: 4em;
+}
+.servicesSubsectionContent{
+	width: 50%;
+	margin: 0 auto;
+}
+.servicesSubsectionTitle{
+	text-align: center;
+	font-family: SinkinSansSixBold;
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	margin-top: 3em;
+	color:#18C2BE;
+	font-size: 1.2em;
+}
+.servicesSubsectionContent{
+	line-height: 1.8em;
+}
+.servicesSectionTitle{
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+.servicesAnchorTag{
 	text-align: center;
 	font-size: 1.5em;
+	color:black;
+	text-decoration: none;
 	font-family: SinkinSansSixBold;
 	color: black;
 	text-transform: uppercase;
 	margin-top: 4em;
 	margin-bottom: 2em;
+}
+.servicesAnchorTag:hover{
+	text-decoration: none;
+	color:black;
 }
 .servicesHead{
 	text-align: center;
@@ -563,7 +607,10 @@ font-size: 24px;
 		background-color: transparent;
 		border-bottom: none;
 	}
-	
+	.servicesSubsectionContent{
+		width: 90%;
+		margin: 0 auto;
+	}
 
 }
 
