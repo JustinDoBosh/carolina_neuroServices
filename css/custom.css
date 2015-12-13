@@ -186,12 +186,6 @@ li:hover{
 
 
 
-
-
-
-
-
-
 /* Dr. Ewert Bio/Picture Begin*/
 
 
@@ -366,26 +360,11 @@ li:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* Begin Services Page */
 
 /* Begin Testing Section */
 
-.testingContainer{
-	background-color: white;
-	font-color: black;
-}
-.testingTitle{
+.servicesTitle{
 	text-align: center;
 	font-size: 1.5em;
 	font-family: SinkinSansSixBold;
@@ -394,12 +373,16 @@ li:hover{
 	margin-top: 4em;
 	margin-bottom: 2em;
 }
-.whatIsTesting{
+.servicesHead{
 	text-align: center;
 	text-transform: uppercase;
 }
-.testingExplainerTxt{
+.servicesExplainerTxt{
 	text-align: left;
+}
+.testingContainer{
+	background-color: red;
+	font-color: black;
 }
 
 /* Begin Therapy Section */
@@ -408,71 +391,35 @@ li:hover{
 	background-color: white;
 	font-color: black;
 }
-.therapyTitle{
-	text-align: center;
-	font-size: 1.5em;
-	font-family: SinkinSansSixBold;
-	color: black;
-	text-transform: uppercase;
-	margin-top: 4em;
-	margin-bottom: 2em;
-}
-.whatIsTherapy{
-	text-align: center;
-}
-.therapyExplainerTxt{
-	text-align: left;
-}
 
 /* Begin Concussion Section */
 
 .concussionContainer{
-	background-color: white;
+	background-color: blue;
 	font-color: black;
 }
-
-.concussionTitle{
-	text-align: center;
-	font-size: 1.5em;
-	font-family: SinkinSansSixBold;
-	color: black;
-	text-transform: uppercase;
-	margin-top: 4em;
-	margin-bottom: 2em;
-}
-
-
-
-
 
 
 
 /* Begin Appointments Section*/
 
 .appointmentContainer{
-	background-color: white;
-	font-color: black;
+	background-color: #B1E9DB;
+	font-color: white;
 }
 .appointmentTitle{
 	text-align: center;
 	font-size: 1.5em;
 	font-family: SinkinSansSixBold;
-	color: black;
+	color: white;
 	text-transform: uppercase;
 	margin-top: 4em;
 	margin-bottom: 2em;
 }
-#appointmentList{
+.appointmentList{
 	list-style-type:square;
+	list-style-position: inside;
 }
-.insuranceContainer{
-	
-}
-
-
-
-
-
 
 
 
