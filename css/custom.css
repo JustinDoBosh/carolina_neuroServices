@@ -30,6 +30,14 @@ body{
 	font-family: SinkinSansFourThin;
 	margin-top: 52px;
 }
+#whoWeAre{
+	display: none;
+}
+.magic{
+	color: white;
+	visibility: hidden;
+	background-color: white;
+}
 /* Navbar */
 .navbar-nav li{
 	width: 25%;
@@ -106,11 +114,9 @@ li:hover{
 .secondaryColor{
 	color:#777;
 }
-.whoWeHelpPersonaWrapper{
-	margin-bottom: 8em;
-	height: auto;
+.whoWeHelpPersonaContainer{
+	margin-bottom: 5em;
 }
-
 /* Who We Are Section Begin */
 
 .mainTitle{
@@ -570,6 +576,18 @@ font-size: 24px;
 	.whoWeHelpList > li{
 		text-align: center;
 	}
+}
+@media screen and (max-width: 1350px) {
+	.whoWeAreTransparent{
+		width: 80%;
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-top: 7em;
+	}
+	.whoWeAreTitle{
+		font-size: 2.5em;
+	}
+}
 @media screen and (max-width: 1200px) {
 	#headInjury{
 		width: 100%;
@@ -579,6 +597,40 @@ font-size: 24px;
 @media screen and (max-width: 993px) {
 	#headInjury{
 		visibility: hidden;
+	}
+	.whoWeAreTransparent{
+		margin-top: 0;
+		position: absolute;
+		bottom: 25%;
+	}
+	.whoWeAreTitle{
+		font-size: 2.5em;
+	}
+	.whoWeAreExplainerTxt{
+		font-size: 1em;
+	}
+	.mainTitle{
+		margin-top: 0;
+		padding-top: 2em;
+	}
+	#howTitle{
+		margin-top: 0;
+		padding-top: 2em;
+	}
+	#whoWeHelp{
+		background-color: white;
+	}
+	.whoWeHelpPersonaWrapper{
+		height: inherit;
+	}
+	.whoWeHelpPersonaContainer{
+		height: auto;
+	}
+	.ewertTitle{
+		margin-top: 0;
+	}
+	body{
+		background-color: white;
 	}
 	
 }
@@ -611,10 +663,37 @@ font-size: 24px;
 		width: 90%;
 		margin: 0 auto;
 	}
-
+	#whoWeHelp{
+		border:1px solid red;
+	}
+	.ewertTitle{
+		margin-top: 0;
+	}
+	.whoWeHelpPersonaContainer{
+		margin-top: 4em;
+	}
+	#howTitle{
+		margin-top: 0;
+		padding-top: 3em;
+	}
 }
 
-
+@media screen and (max-width: 625px) {
+	#whoWeAre{
+		display: block;
+		border-bottom: 1px solid grey;
+	}
+	.whoWeAreTransparent{
+		display: none;
+		visibility: hidden;
+	}
+	.whoWeAreExplainerTxt{
+		text-align: justify;
+	}
+	#mainBanner{
+		height: 25em;
+	}
+}
 
 
 
