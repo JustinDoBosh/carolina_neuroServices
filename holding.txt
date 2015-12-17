@@ -1,21 +1,60 @@
-<section>
-  <div class="testingContainer col-lg-12">
-    <a name="Testing" class="servicesTitle">Neuropsychological Testing & Evaluation</a>
+<section><a name="Appointments"></a>
+  <div class="appointmentContainer col-lg-12">
+    <h4 class="appointmentTitle">Appointment Information</h4>
+     <p class="appointmentExplainerTxt">If you are interested in making an appointment, please read over all of the information on this page and then contact our office at 704-366-9930.</p>
+     <br>
+      <ul class="appointmentList">For an initial appointment, you will need to bring with you the following:</p>
+        <li>Proper photo identification (i.e. driver’s license or school ID if under the age of 16).</li>
+        <li>Insurance card (primary and secondary if applicable).</li>
+        <li>Authorization number for your visit (call the ‘mental health’ side of your insurance to obtain this number).</li>
+        <li>Proper co-pay or payment for the appointment, as payment is expected at time of service unless proof of coverage through your insurance is shown. We accept Visa, Mastercard, cash, or check.</li>
+        <li>Your completed Carolina NeuroServices Registration Packet</li>
+      </ul>
+  </div>
+</section><!-- End Appointments Section -->
 
-    <h5 class="servicesHead">What Is Neuropsych Testing?</h5>
-      <p class="servicesExplainerTxt">At Carolina NeuroServices, we offer several comprehensive neuropsychological test batteries to assess cognitive functioning, aid in diagnosis, and guide in the treatment of an individual patient.  Neuropsych testing is an all day process in which the patient will be given a variety of tasks to complete in order to be able to identify neurocognitive impairment, specifically assessing various domains of cognitive functioning such as attention, memory, motor skills, visual perception, executive functioning, language, intelligence (IQ), motor skills, tactile functioning, and personality.  Pediatric and adolescent evaluations are available for those ages 4 - 17 years, and adult evaluations are available for those 18 – 80 + years of age.  If you are interested in receiving neuropsych testing, please call our office to inquire and set up your initial consultation.</p>
 
-    <h5 class="servicesHead">What To Expect</h5>
-      <p class="servicesExplainerTxt">On the day of your testing, you will meet with one of our psychometrists who will administer the testing battery. All testing services begin promptly at 8am and typically end around 4pm, so be sure to get a good night of rest the night before. There is a 10 - 15 minute break around 10am, as well as an hour break from 12pm - 1pm for lunch. Upon the end of the testing session, patients may schedule their follow up appointment with Dr. Ewert, who will go over the results one-on-one and also address the options available to the patient at that time.</p>
+<section><a name="Insurance"></a>
+  <div class="appointmentContainer col-lg-12">
+    <h4 class="appointmentTitle">Below is a comprehensive list of insurances we are in-network with:</h4>
+      <ul class="appointmentList">
+        <li>Aetna Behavioral Health</li>
+        <li>APS Healthcare</li>
+        <li>BCBS NC (not HMO)
+        <li>BCBS SC (only mental health side = Companion Benefit Alternatives)</li>
+        <li>Carolinas Healthcare System (must go through Carolina Behavioral Health Alliance)</li>
+        <li>Cigna Behavioral Health</li>
+        <li>First Health </li>
+        <li>MedCost (including the former Health Care Savings)</li>
+        <li>Humana Gold Choice</li>
+        <li>Kanawha</li>
+        <li>Magellan Behavioral health</li>
+        <li>Medicare</li>
+        <li>Mental Health Network, Inc.</li>
+        <li>NC State Employees</li>
+        <li>Principal Healthcare</li>
+        <li>Private Health Care Systems</li>
+        <li>Tricare For Life/Champus</li>
+        <li>United Behavioral Health</li>
+        <li>Definity Plan</li>
+        <li>One Net PPO/Alliance PPO - Mid Atlantic Region</li>
+        <li>Mamsi - PPO</li>
+        <li>MDIPA - HMO</li>
+        <li>Optima Care - HMO</li>
+        <li>Pacific Behavioral Health</li>
+        <li>Wellpath (only mental health side)</li>
+      </ul>
 
-    <h5 class="servicesHead">Preparation</h5>
-      <p class="servicesExplainerTxt">Be sure to bring snacks and water to help avoid fatigue throughout the testing session, as the process is time intensive and minimal breaks are given upon request. Wear comfortable clothing, and consider dressing in layers as the temperature of the office may fluctuate throughout the day. A family member or friend may be asked to accompany the patient on the day of testing, as they may need to complete forms regarding the patient to assist with the overall evaluation.</p>
+    <h4 class="appointmentTitle">We are not in network with:</h4>
+      <ul class="appointmentList">
+        <li>Humana</li>
+        <li>Medicaid</li>
+        <li>Primary Physician Care</li>
+      </ul>
+
+    <h4 class="appointmentTitle" id="otherInfo">Please be sure to call the “mental health” side of your insurance prior to your first visit with Dr. Ewert for your authorization. Bring this number with you on your first visit! If you have any questions regarding your specific insurance, please feel free to call our office at 704-366-9930.</h4>
+
+
 
   </div>
-</section> <!-- End of Testing Section -->
-
-
-<section class="servicesContainer">
-  <center><h2 class="servicesSectionTitle">NEUROPSYCHOLOGICAL TESTING & EVALUATION</h2></center>
-  
 </section>
