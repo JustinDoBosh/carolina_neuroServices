@@ -26,7 +26,8 @@
     <div class="collapse navbar-collapse" id="bs-slide-dropdown">
         <ul class="nav navbar-nav">
             <!--<li><a href="#">About</a></li>!-->
-          <li class="dropdown">
+          <li id="servicesLink_mobile_only"><a href="services.html">Services</a></li>
+          <li class="dropdown" id="servicesDropDown">
         <a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>       
         <ul class="dropdown-menu" role="menu">
                  <li class="hvr-shutter-out-horizontal"><a href="services.html#Testing">Testing</a></li>
@@ -34,18 +35,20 @@
                 <li class="hvr-shutter-out-horizontal"><a href="services.html#Concussion_Management">Concussion Management</a></li>
               </ul>                
             </li>
-            <li class="dropdown">
+          <li id="patientsLink_mobile_only"><a href="patient-resources.html">Patients</a></li>
+          <li class="dropdown" id="patientsDropDown">
         <a href="patient-resources.html" class="dropdown-toggle" data-toggle="dropdown">Patients <span class="caret"></span></a>        
         <ul class="dropdown-menu" role="menu">
                 <li class="hvr-shutter-out-horizontal"><a href="patient-resources.html#Appointments">Appointments</a></li>
                 <li class="hvr-shutter-out-horizontal"><a href="patient-resources.html#Insurance">Insurance Info</a></li>
               </ul>                
             </li>
-            <li class="dropdown">
+             <li id="resourcesLink_mobile_only"><a href="resources.html">Resources</a></li>
+            <li class="dropdown" id="resourcesDropDown">
         <a href="resources.html" class="dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span></a>
         <ul class="dropdown-menu" role="menu">
                 <li class="hvr-shutter-out-horizontal"><a href="resources.html#Forms">Downloadable Forms</a></li>
-                <li class="hvr-shutter-out-horizontal"><a href="resources.html#Faq">FAQ</a></li>
+                <!--<li class="hvr-shutter-out-horizontal"><a href="resources.html#Faq">FAQ</a></li>!-->
               </ul>
             </li>
             <li><a href="contact.html">Contact Us</a></li>
@@ -55,22 +58,39 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-
   <!-- Forms Section Begin -->
 <div class="resourcesContainer col-lg-12">
-  <a href="img/new_pt_forms1.pdf" target="_blank" class="patientForms">New Patient Registration Packet</a>
-  <br>
-  <a href="img/new_pt_forms2.pdf" target="_blank" class="patientForms">Additional Info & Directions</a>
-  <br>
-  <a href="img/referral_form.pdf" target="_blank" class="patientForms">Physician Referral Form</a>
-  <br>
-  <a href="img/privacy.pdf" target="_blank" class="patientForms">Privacy Practices</a>
+
+  <div class="col-md-3 col-xs-12 downloadableForms">
+    <a href="img/new_pt_forms1.pdf" target="_blank" class="patientForms col-md-12"><span class="downloadFormIcon col-md-12"><img src="img/download-icon.png" alt="download file icon" class="downloadIcon"/></span></a>
+
+    <br /><a href="img/new_pt_forms1.pdf" target="_blank" class="patientForms col-md-12"><span class="downloadFormTitle col-md-12">New Patient Registration Packet</span></a>
+  </div>
+
+   <div class="col-md-3 col-xs-12 downloadableForms">
+    <a href="img/new_pt_forms2.pdf" target="_blank" class="patientForms col-md-12"><span class="downloadFormIcon col-md-12"><img src="img/download-icon.png" alt="download file icon" class="downloadIcon"/></span></a>
+
+    <br /><a href="img/new_pt_forms2.pdf" target="_blank" class="patientForms col-md-12"><span class="downloadFormTitle col-md-12">Additional Info & Directions</span></a>
+  </div>
+
+   <div class="col-md-3 col-xs-12 downloadableForms">
+     <a href="img/referral_form.pdf" target="_blank" class="patientForms col-md-12"><span class="downloadFormIcon col-md-12"><img src="img/download-icon.png" alt="download file icon" class="downloadIcon"/></span></a>
+
+      <br /><a href="img/referral_form.pdf" target="_blank" class="patientForms col-md-12"><span class="downloadFormTitle col-md-12">Physician Referral Form</span></a>
+  </div>
+
+   <div class="col-md-3 col-xs-12 downloadableForms">
+    <a href="img/privacy.pdf" target="_blank" class="patientForms col-md-12"><span class="downloadFormIcon col-md-12"><img src="img/download-icon.png" alt="download file icon" class="downloadIcon"/></span></a>
+
+    <br /><a href="img/privacy.pdf" target="_blank" class="patientForms col-md-12"><span class="downloadFormTitle col-md-12">Privacy Practices</span></a>
+  </div>
+  
 </div>
 
 
 
 
-<section><a name="FAQ">FAQ</a></section>
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

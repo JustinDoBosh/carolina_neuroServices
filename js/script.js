@@ -13,7 +13,7 @@ function clickOrHover(){
 		    }
 		);
 	}else{
-		$(".dropdown").onclick(            
+		$(".dropdown").click(            
 		    function() {
 		        $('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideDown("fast");
 		        $(this).toggleClass('open');        
@@ -35,7 +35,45 @@ $(window).resize(function () {
     clickOrHover();
 });
 
+function setWhatWeDoHeight(){
+	var windowWidth = $(window).width();
+	if(windowWidth < 993){
+		console.log(windowWidth);
+		//What We Do Section Logic
+		var WWD_nueroDivHeight = $("#NueroEvalDiv").height();
+	    var WWD_therapyDivHeight = $("#therapyDiv").height();
+	    var WWD_treatmentDivHeight = $("#treatmentDiv").height();
+	    var WWD_whatWeDoTitleH4Height = $("#WhatWeDoTitleH4").height();
+	 
+	    var WWD_margins = (80 * 3) + 100;
+
+	    var WWD_totalHeight = WWD_nueroDivHeight + WWD_therapyDivHeight + WWD_treatmentDivHeight + WWD_margins + WWD_whatWeDoTitleH4Height;
+	    var WWD_totalHeight = WWD_totalHeight + "px";
+	    $("#whoWeHelp").css("height", WWD_totalHeight);
+	    //DR EWERT Section Logic
+
+	    var DREWERTPicHeight = $("#Dr_Ewert_sm_profile_container").height();
+	    var DREWERTTitleHeight = $("#DrEwertTitle").height();
+	    var DrEwertContentTxtHeight = $("#DrEwertContentTxt").height();
+	    var DREwertMargins = 100 + 64 + 64;
+
+	    var DREwertSectionHeight = DREWERTPicHeight + DREWERTTitleHeight + DrEwertContentTxtHeight + DREwertMargins;
+	    var DREwertSectionHeight = DREwertSectionHeight + "px";
+	    console.log("DREwertSectionHeight: " + DREwertSectionHeight);
+	    $("#ewertBioTxt").css("height", DREwertSectionHeight);
+	    
+	}else{
+		$("#whoWeHelp").css("height", "auto");
+		$("#ewertBioTxt").css("height", "55em");
+		console.log(windowWidth);
+	}
+}
+
 $(document).ready(function(){
-        
+      setWhatWeDoHeight();
+});
+
+$(window).resize(function() {
+	setWhatWeDoHeight();
 });
 

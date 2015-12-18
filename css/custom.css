@@ -30,6 +30,9 @@ body{
 	font-family: SinkinSansFourThin;
 	margin-top: 52px;
 }
+#Dr_Ewert_sm_profile_container{
+	display: none;
+}
 #whoWeAre{
 	display: none;
 }
@@ -37,8 +40,20 @@ body{
 	color: white;
 	visibility: hidden;
 	background-color: white;
+	width: 100%;
+	max-height: 1px;
 }
+
 /* Navbar */
+#servicesLink_mobile_only{
+	display: none;
+}
+#patientsLink_mobile_only{
+	display: none;
+}
+#resourcesLink_mobile_only{
+	display: none;
+}
 .navbar-nav li{
 	width: 25%;
 	font-size: 1em;
@@ -588,9 +603,40 @@ font-size: 24px;
 }
 
 
-
-
-
+.appointmentsList > li:hover{
+	color: black;
+}
+.downloadFormTitle{
+	font-size: 0.75em;
+	color: black;
+}
+.downloadIcon{
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+.resourcesContainer{
+	height: 100vh;
+}
+.downloadableForms{
+	padding: 0;
+}
+.patientForms{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.closeBtn{
+	z-index: 800;
+	position: absolute;
+	right: 10px;
+	top:10px;
+	background-color: #18C2BE;
+	color: white;
+	border: none;
+	font-weight: bold;
+	width:40px;
+	font-size: 1.3em;
+	height:40px;
+}
 @media screen and (max-width: 1500px) {
 	#roadMapToRecoveryStepOne{
 		margin-left: 5%;
@@ -618,11 +664,43 @@ font-size: 24px;
 	.whoWeAreTitle{
 		font-size: 2.5em;
 	}
+	#Dr_Ewert_sm_profile_container{
+		display: inline-block;
+	}
+	#Dr_Ewert_sm_profile{
+		height: 17.063em;
+		width: 20em;
+		margin-top: 5em;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		border-radius: 20px;
+	}
+	#ewertBioPic{
+		display: none;
+	}
+	#ewertBioTxt{
+		width: 100%;
+	}
+	.ewertTitle{
+		padding-top: 3em;
+	}
 }
 @media screen and (max-width: 1200px) {
 	#headInjury{
 		width: 100%;
 		margin-left: 0;
+	}
+	.appointmentsSubsectionContent{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.appointmentsSubsectionTitle{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.appointmentsList{
+		width: 80%;
+		margin: 0 auto;
 	}
 }
 @media screen and (max-width: 993px) {
@@ -650,6 +728,7 @@ font-size: 24px;
 	}
 	#whoWeHelp{
 		background-color: white;
+		height: auto;
 	}
 	.whoWeHelpPersonaWrapper{
 		height: inherit;
@@ -663,8 +742,16 @@ font-size: 24px;
 	body{
 		background-color: white;
 	}
+
 	
 }
+
+@media screen and (max-width: 850px) {
+	.navbar-brand{
+		font-size:16px;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.navbar-nav{
 		width: 105%;
@@ -690,12 +777,30 @@ font-size: 24px;
 		background-color: transparent;
 		border-bottom: none;
 	}
+	#servicesDropDown{
+		display: none;
+	}
+	#patientsDropDown{
+		display: none;
+	}
+	#resourcesDropDown{
+		display: none;
+	}
+	#servicesLink_mobile_only{
+		display: block;
+	}
+	#patientsLink_mobile_only{
+		display: block;
+	}
+	#resourcesLink_mobile_only{
+		display: block;
+	}
 	.servicesSubsectionContent{
 		width: 90%;
 		margin: 0 auto;
 	}
 	#whoWeHelp{
-		border:1px solid red;
+
 	}
 	.ewertTitle{
 		margin-top: 0;
@@ -723,6 +828,10 @@ font-size: 24px;
 	}
 	#mainBanner{
 		height: 25em;
+	}
+	.ewertExplainerTxt{
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 

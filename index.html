@@ -26,7 +26,8 @@
     <div class="collapse navbar-collapse" id="bs-slide-dropdown">
         <ul class="nav navbar-nav">
             <!--<li><a href="#">About</a></li>!-->
-          <li class="dropdown">
+          <li id="servicesLink_mobile_only"><a href="services.html">Services</a></li>
+          <li class="dropdown" id="servicesDropDown">
         <a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>       
         <ul class="dropdown-menu" role="menu">
                  <li class="hvr-shutter-out-horizontal"><a href="services.html#Testing">Testing</a></li>
@@ -34,18 +35,20 @@
                 <li class="hvr-shutter-out-horizontal"><a href="services.html#Concussion_Management">Concussion Management</a></li>
               </ul>                
             </li>
-            <li class="dropdown">
+          <li id="patientsLink_mobile_only"><a href="patient-resources.html">Patients</a></li>
+          <li class="dropdown" id="patientsDropDown">
         <a href="patient-resources.html" class="dropdown-toggle" data-toggle="dropdown">Patients <span class="caret"></span></a>        
         <ul class="dropdown-menu" role="menu">
                 <li class="hvr-shutter-out-horizontal"><a href="patient-resources.html#Appointments">Appointments</a></li>
                 <li class="hvr-shutter-out-horizontal"><a href="patient-resources.html#Insurance">Insurance Info</a></li>
               </ul>                
             </li>
-            <li class="dropdown">
+             <li id="resourcesLink_mobile_only"><a href="resources.html">Resources</a></li>
+            <li class="dropdown" id="resourcesDropDown">
         <a href="resources.html" class="dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span></a>
         <ul class="dropdown-menu" role="menu">
                 <li class="hvr-shutter-out-horizontal"><a href="resources.html#Forms">Downloadable Forms</a></li>
-                <li class="hvr-shutter-out-horizontal"><a href="resources.html#Faq">FAQ</a></li>
+                <!--<li class="hvr-shutter-out-horizontal"><a href="resources.html#Faq">FAQ</a></li>!-->
               </ul>
             </li>
             <li><a href="contact.html">Contact Us</a></li>
@@ -74,31 +77,31 @@
 </div> <!-- Who we are section End (mobile ony)-->
 
 <div class="col-md-12" id="whoWeHelp"> <!-- What We Do Section Begin -->
-  <h4 class="mainTitle">What We Do</h4>
-        <!--Nuero!-->
-        <div class="col-md-4 col-sm-12 whoWeHelpPersonaContainer">
-          <a href="services.html#Testing"><img class="whoWeHelpIcons" src="img/brain-256.png" alt="Generic placeholder image" width="200" height="200">
-          <div class="wwDContainer">
-            <h5 class="whatWeDoTitle">Neuropsychological</h5>
-            <h5 class="whatWeDoSubTitle">Evaluation</h5></a>
-          </div>
-        </div>
-        <!--Therapy!-->
-        <div class="col-md-4 col-sm-12 whoWeHelpPersonaContainer">
-          <a href="services.html#Therapy"><img class="whoWeHelpIcons" src="img/group-256.png" alt="Generic placeholder image" width="200" height="200">
-          <div class="wwDContainer">
-            <h5 class="whatWeDoTitle">Individual & Group</h5>
-            <h5 class="whatWeDoSubTitle">Therapy</h5></a>
-          </div>
-        </div>
-        <!--Concus!-->
-        <div class="col-md-4 col-sm-12 whoWeHelpPersonaContainer">
-          <a href="services.html#Therapy"><img class="whoWeHelpIcons" src="img/plus-4-256.png" alt="Generic placeholder image" width="200" height="200">
-          <div class="wwDContainer">
-            <h5 class="whatWeDoTitle">Treatment</h5>
-            <h5 class="whatWeDoSubTitle">Programs</h5></a>
-          </div>
-        </div>
+  <h4 class="mainTitle" id="WhatWeDoTitleH4">What We Do</h4>
+    <!--Nuero!-->
+    <div class="col-md-4 col-sm-12 whoWeHelpPersonaContainer" id="NueroEvalDiv">
+      <a href="services.html#Testing"><img class="whoWeHelpIcons" src="img/brain-256.png" alt="Generic placeholder image" width="200" height="200">
+      <div class="wwDContainer">
+        <h5 class="whatWeDoTitle">Neuropsychological</h5>
+        <h5 class="whatWeDoSubTitle">Evaluation</h5></a>
+      </div>
+    </div>
+    <!--Therapy!-->
+    <div class="col-md-4 col-sm-12 whoWeHelpPersonaContainer" id="therapyDiv">
+      <a href="services.html#Therapy"><img class="whoWeHelpIcons" src="img/group-256.png" alt="Generic placeholder image" width="200" height="200">
+      <div class="wwDContainer">
+        <h5 class="whatWeDoTitle">Individual & Group</h5>
+        <h5 class="whatWeDoSubTitle">Therapy</h5></a>
+      </div>
+    </div>
+    <!--Concus!-->
+    <div class="col-md-4 col-sm-12 whoWeHelpPersonaContainer" id="treatmentDiv">
+      <a href="services.html#Therapy"><img class="whoWeHelpIcons" src="img/plus-4-256.png" alt="Generic placeholder image" width="200" height="200">
+      <div class="wwDContainer">
+        <h5 class="whatWeDoTitle">Treatment</h5>
+        <h5 class="whatWeDoSubTitle">Programs</h5></a>
+      </div>
+    </div>
 </div>
 
 <p class="col-md-12 magic">Carolina NueroServices</p>
@@ -106,9 +109,13 @@
       <div class="col-md-5" id="ewertBioPic">
       </div>
 
-      <div class="col-md-7 ewertBioRight">
-        <h4 class="ewertTitle col-md-12">P. Jeffrey Ewert, Ph.D. ABPP</h4>
-          <div class="col-md-12">
+      <div class="col-md-7 ewertBioRight" id="ewertBioTxt">
+        
+         <center><div class="col-md-12" id="Dr_Ewert_sm_profile_container">
+         <img src="img/Ewert.jpeg" alt="Dr. P. Jeffrey Ewert, PH.D. ABPP" id="Dr_Ewert_sm_profile"/>
+        </div></center>
+        <h4 class="ewertTitle col-md-12" id="DrEwertTitle">P. Jeffrey Ewert, Ph.D. ABPP</h4>
+          <div class="col-md-12" id="DrEwertContentTxt">
            <p class="ewertExplainerTxt">Dr. Ewert attained his doctorate degree in Clinical Neuropsychology from the University of Houston, and he now specializes in the evaluation and treatment of children and adults who have congenital and acquired brain injuries.  As a member of the International Neuropsychological Society, the National Academy of Neuropsychology, and the American Psychological Association,  Dr. Ewert has conducted research in respect to the effects of brain injuries. In addition to having lectured throughout the southeast and having published numerous reports on head injury rehabilitation for adults and adolescents, Dr. Ewert has testified as a head injury expert in legal cases for many years.</p>
           </div>
       </div>
