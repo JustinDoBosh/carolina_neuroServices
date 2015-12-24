@@ -54,7 +54,7 @@ body{
 #resourcesLink_mobile_only{
 	display: none;
 }
-.navbar-nav li{
+.navbar-nav > li{
 	width: 25%;
 	font-size: 1em;
 }
@@ -113,7 +113,7 @@ body{
 .navbar-default .navbar-nav>li>a:hover{
 	color: #18C2BE;
 }
-li:hover{
+.navbar-nav > li:hover{
 	color: #18C2BE;
 }
 .mainContent{
@@ -255,7 +255,21 @@ li:hover{
 	font-size: 1em;
 	line-height: 1.95em;
 }
+#treatmentLink{
+	color:white;
+	text-decoration: underline;
+	font-style: oblique;
 
+}
+.ewertHeading{
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.ewertExplainerTxt > li:hover{
+	color:white;
+}
 .ewertList {
 	list-style-type:square;
 	list-style-position: inside;
@@ -666,6 +680,10 @@ font-size: 24px;
 		margin-right: 10%;
 		margin-left: 10%;
 		margin-top: 7em;
+	}
+	.ewertExplainerTxt{
+		text-align: center;
+		list-style: none;
 	}
 	.whoWeAreTitle{
 		font-size: 2.5em;
