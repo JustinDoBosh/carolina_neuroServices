@@ -27,6 +27,25 @@ function clickOrHover(){
 }//ClickOrHover
 
 
+function setDrEwertHeightDiv(){
+		var DrEwertPic = $("#ewertBioPic").height();
+	    var DrEwertTitle = $("#DrEwertTitle").height();
+	    var DrEwertTxt = $("#ewertExplainerTxt").height();
+	    var eduHistoryTitle = $("#eduHistoryTitle").height();
+	    var eduHistoryUL = $("#eduHistoryUL").height();
+	    var professionalAffilationsTitle = $("#professionalAffilationsTitle").height();
+	    var professionalAffilationsUL = $("#professionalAffilationsUL").height();
+	    var sportsAffilationsTitle = $("#sportsAffilationsTitle").height();
+	    var sportsAffilationsUL = $("#sportsAffilationsUL").height();
+
+	    var DREwertMargins = 100 + 200 + 150;
+
+	    var DREwertSectionHeight = DrEwertPic + DrEwertTitle + DrEwertTxt + eduHistoryTitle + eduHistoryUL + professionalAffilationsTitle + professionalAffilationsUL + sportsAffilationsTitle + sportsAffilationsUL;
+	    var DREwertSectionHeight = DREwertSectionHeight + "px";
+	    console.log("DREwertSectionHeight: " + DREwertSectionHeight);
+	    $("#ewertBioTxt").css("height", DREwertSectionHeight);
+}
+
 $(document).ready(function(){
 	clickOrHover();
 });
@@ -34,6 +53,9 @@ $(document).ready(function(){
 $(window).resize(function () {
     clickOrHover();
 });
+
+
+
 
 function setWhatWeDoHeight(){
 	var windowWidth = $(window).width();
@@ -52,19 +74,12 @@ function setWhatWeDoHeight(){
 	    $("#whoWeHelp").css("height", WWD_totalHeight);
 	    //DR EWERT Section Logic
 
-	    var DREWERTPicHeight = $("#Dr_Ewert_sm_profile_container").height();
-	    var DREWERTTitleHeight = $("#DrEwertTitle").height();
-	    var DrEwertContentTxtHeight = $("#DrEwertContentTxt").height();
-	    var DREwertMargins = 100 + 64 + 64;
-
-	    var DREwertSectionHeight = DREWERTPicHeight + DREWERTTitleHeight + DrEwertContentTxtHeight + DREwertMargins;
-	    var DREwertSectionHeight = DREwertSectionHeight + "px";
-	    console.log("DREwertSectionHeight: " + DREwertSectionHeight);
-	    $("#ewertBioTxt").css("height", DREwertSectionHeight);
+	    //Call DREwert Function uncommment if css if acting up
+	    //setDrEwertHeightDiv();
 	    
 	}else{
 		$("#whoWeHelp").css("height", "auto");
-		$("#ewertBioTxt").css("height", "55em");
+		//setDrEwertHeightDiv();
 		console.log(windowWidth);
 	}
 }
