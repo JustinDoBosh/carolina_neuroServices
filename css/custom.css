@@ -223,11 +223,11 @@ body{
 
 
 #ewertBioPic {
-	height: 55em;
-	background-image: url("../img/Ewert.jpeg");
-	background-size: cover;
+	height: 35em;
+	width: 40em;
 	background-repeat: no-repeat;
-	background-position: center;
+	margin-top: 6em;
+	margin-left: 1em;
 }
 
 .ewertBioRight {
