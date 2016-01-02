@@ -487,7 +487,9 @@ body{
 /* Begin Concussion Section */
 
 
-
+.form-control{
+	font-size: 12px;
+}
 
 
 
@@ -577,7 +579,10 @@ body{
 
 
 
-
+.appointmentsList > li{
+		margin-top: 0.8em;
+		margin-bottom: 0.8em;
+	}
 
 .jumbotron {
 background: #a8a8a8;
@@ -723,6 +728,9 @@ font-size: 24px;
 	.ewertTitle{
 		padding-top: 3em;
 	}
+	.form-control{
+		font-size: 12px;
+	}
 }
 @media screen and (max-width: 1200px) {
 	#headInjury{
@@ -735,11 +743,31 @@ font-size: 24px;
 	}
 	.appointmentsSubsectionTitle{
 		width: 80%;
-		margin: 0 auto;
+		text-align: center;
 	}
 	.appointmentsList{
 		width: 80%;
 		margin: 0 auto;
+
+	}
+	.appointmentsList > li{
+		margin-top: 0.8em;
+		margin-bottom: 0.8em;
+	}
+	.form-control{
+		font-size: 12px;
+	}
+	#cnt-form{
+		margin-left: 5%;
+		width:90%;
+		padding-left: 0;
+	}
+	#contact-info{
+		width: 90%;
+		text-align: center;
+		margin-bottom: 3em;
+		margin-left: 5%;
+		padding: 0;
 	}
 }
 
@@ -752,6 +780,22 @@ font-size: 24px;
 	.servicesSubsectionTitle{
 		width: 100%;
 	}
+	.howWeHelpExplainerTxt{
+		width: 90%;
+		margin-left: 5%;
+	}
+	#RMTRLarge{
+		width: 80%;
+	}
+	#cnt-form{
+		margin-left: 5%;
+		width:90%;
+		padding-left: 0;
+	}
+	.form-control{
+		font-size: 12px;
+	}
+
 }
 
 @media screen and (max-width: 993px) {
@@ -777,6 +821,9 @@ font-size: 24px;
 		margin-top: 0;
 		padding-top: 2em;
 	}
+	.form-control{
+		font-size: 12px;
+	}
 	#whoWeHelp{
 		background-color: white;
 		height: auto;
@@ -793,6 +840,11 @@ font-size: 24px;
 	body{
 		background-color: white;
 	}
+	#cnt-form{
+		margin-left: 5%;
+		width:90%;
+		padding-left: 0;
+	}
 
 }
 
@@ -804,6 +856,26 @@ font-size: 24px;
 }
 
 @media screen and (max-width: 768px) {
+#navbarTitle{
+	font-size: 14px;
+}
+#contact_page_map{
+		background-image: url("../img/google_map-mobile.png");
+		height: 28em;
+	}
+	.appointmentsList{
+		font-size: 1.1em;
+	}
+	.appointmentsList > li{
+		margin-bottom: 0.8em;
+		margin-top: 0.8em;
+	}
+	.appointmentsSubsectionContent{
+		font-size: 1.1em;
+	}
+}
+
+@media screen and (max-width: 767px) {
 	.navbar-nav{
 		width: 105%;
 		text-align: center;
@@ -823,6 +895,7 @@ font-size: 24px;
 	.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
 		margin-left: 0;
 		margin-right: 0;
+		padding-left: 0;
 	}
 	.dropdown-menu > li{
 		background-color: transparent;
@@ -877,13 +950,51 @@ font-size: 24px;
 		padding-left: 0;
 		padding-right: 0;
 	}
+	#contact_page_map{
+		background-image: url("../img/google_map-mobile.png");
+		height: 20em;
+	}
 
+}
+
+@media screen and (max-width: 465px) {
+	#ewertBioPic{
+		width: 100%;
+	}
+	#bigTitle{
+		font-size: 100%;
+	}
+	.row{
+		margin: 0;
+	}
+	.appointmentsSubsectionContent{
+		margin-top: 2.5em;
+	}
+	.appointmentsList{
+		padding-left: 0;
+	}
+	.appointmentsList > li{
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
 }
 
 /*Iphone 6*/
 @media screen and (max-width: 375px) {
 	.servicesSubsectionTitle{
 		width:80%;
+	}
+	#contact-info{
+		font-size: 1em;
+	}
+	legend{
+		font-size: 1em;
+	}
+	.officeAddress{
+		font-size: 1em;
+	}
+	.contactInfoListItem{
+		font-size: 1em;
 	}
 }
 

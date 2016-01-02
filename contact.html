@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Carolina NeuroServices</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/hover-min.css">
@@ -67,9 +68,9 @@
 <div class="container">
     <div class="row">
       <!--Form!-->
-        <div class="col-md-6 col-md-offset-2 contact-container">
+        <div class="col-md-6 col-md-offset-2 contact-container" id="cnt-form">
             <div class="well well-sm">
-                <form>
+                <form method="post" action="send_form_email.php">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
@@ -105,15 +106,15 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
-                            Send Message</button>
+                        <a href="index.html"><button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            Send Message</button></a>
                     </div>
                 </div>
                 </form>
             </div>
         </div><!--End Form!-->
         <!--Contact Info Sidebar!-->
-        <div class="col-md-4 contact-container">
+        <div class="col-md-4 contact-container" id="contact-info">
             <form>
             <legend><span class="glyphicon glyphicon-home"></span> Our office</legend>
             <address class="officeAddress">
@@ -134,7 +135,7 @@
 <!--End Contact Form!-->
 
  <!-- Modal -->
-    <div class="modal fade col-md-12"  style="width:100%; height:90vh;" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade col-md-12"  style="width:90%; height:90vh;" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog"  style="width:100%; height:90vh;">
             <div class="modal-content" style="width:100%; height:90vh;">
 
