@@ -1,16 +1,16 @@
 <?php
-  $name = $_POST['name'];
-  $visitor_email = $_POST['email'];
-  $email_subject = $POST['subject'];
-  $email_body = $_POST['message'];
+$to = "jfactorteam@gmail.com";
+$subject = "Website form submission";
+$txt = "Message: " . $_POST["message"] . "\r\n";
+$txt .= "\r\n" ."Customer Full Name: " . $_POST["name"];
+$txt .= "\r\n" ."Customer Email Address: " . $_POST["email"];
+$txt .= "\r\n" . "Reason for contacting: " . $_POST["subject"];
+$headers = "From: noreply@carlonianueroservices.com";
 
-
-  $to = "jfactorteam@gmail.com";
- 
-  $headers = "From: $visitor_email \r\n";
- 
-  $headers .= "Reply-To: $visitor_email \r\n";
- 
-  mail($to,$email_subject,$email_body,$headers);
+if(mail($to,$subject,$txt,$headers)){
+  header('location: index.html');
+}else{
+  echo "error!";
+}
 
 ?>

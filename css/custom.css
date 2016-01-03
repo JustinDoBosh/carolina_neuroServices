@@ -40,6 +40,14 @@ body{
 .lastLi{
 	margin-bottom: 1.5em;
 }
+#footerTxtContainer{
+	padding: 0.5em;
+	margin: 0;
+	background-color: white;
+}
+#footerTxt{
+	margin: 0;
+}
 #sportsAffilationsUL{
 	padding-bottom: 4em;
 }
