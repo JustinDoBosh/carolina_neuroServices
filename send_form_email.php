@@ -1,5 +1,5 @@
 <?php
-$to = "jfactorteam@gmail.com";
+$to = "jstone@charlotte.twcb.com";
 $subject = "Website form submission";
 $txt = "Message: " . $_POST["message"] . "\r\n";
 $txt .= "\r\n" ."Customer Full Name: " . $_POST["name"];
