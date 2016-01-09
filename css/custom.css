@@ -45,6 +45,7 @@ body{
 	margin: 0;
 	background-color: white;
 }
+
 #footerTxt{
 	margin: 0;
 }
@@ -77,7 +78,7 @@ body{
 	font-size: 1em;
 }
 .dropdown-menu{
-	width: auto;
+	width: 100%;
 	padding: 0;
 }
 .dropdown-menu > li{
@@ -88,18 +89,36 @@ body{
 	text-align: center;
 
 }
+#footerContainer{
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 .companyHeadingPlusImg{
 
 }
 .dropdown-menu>li>a:hover{
 
 	background-color: transparent;
-	color: white;
+	color: #18C2BE;
 }
 .navbar-nav{
 	width: 70%;
 	float: right;
 
+}
+#noStairsTxt{
+	font-family: SinkinSansSixBold;
+    color: black;
+    font-size: 1.16em;
+    line-height: 1.8em;
+}      
+#stairsContainer{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+#noStairsImg{
+	margin-right: 2em;
 }
 .dropdown-menu > li > a{
 	padding-bottom: 0.3em;
@@ -575,6 +594,7 @@ body{
 .resourcesContainer{
 	background-color: white;
 	text-align: center;
+	margin-top:5%;
 }
 .patientForms{
 	text-align: center;
@@ -665,7 +685,7 @@ font-size: 24px;
 	margin-top: 1em;
 }
 .resourcesContainer{
-	height: 100vh;
+	height: auto;
 }
 .downloadableForms{
 	padding: 0;
