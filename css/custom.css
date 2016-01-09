@@ -527,7 +527,6 @@ body{
 	margin-top: 4em;
 	margin-bottom: 2em;
 }
-
 .appointmentsTitle{
 	text-align: center;
 	font-size: 1.5em;
@@ -552,6 +551,13 @@ body{
 	font-size: 1.16em;
 	line-height: 1.8em;
 }
+.noStairsTxt{
+	font-family: SinkinSansSixBold;
+	color: black;
+}
+#noStairsImg{
+	display: inline-block;
+}
 .appointmentsSubsectionContent{
 	width: 50%;
 	margin: 0 auto;
@@ -562,13 +568,6 @@ body{
 	list-style-position: inside;
 	width: 50%;
 	margin: 0 auto;
-}
-.noStairsTxt{
-	text-align: center;
-	font-family: SinkinSansSixBold;
-	width: 50%;
-	font-size: 1.5em;
-	color: black;
 }
 
 /* Begin Resources Pg*/
