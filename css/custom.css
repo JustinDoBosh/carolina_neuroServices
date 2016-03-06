@@ -272,11 +272,17 @@ body{
 }
 
 .ewertBioRight {
-	background-color: #556B2F;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfff4+0,e9e9ce+100;Wax+3D+%232 */
+background: rgb(252,255,244); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(252,255,244,1) 0%, rgba(233,233,206,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce',GradientType=0 ); /* IE6-9 */
+
 }
 
 .ewertTitle {
-	color: white;
+	color: black;
 	font-family: SinkinSansSixBold;
 	font-size: 2em;
 	text-align: center;
@@ -286,7 +292,7 @@ body{
 }
 
 .ewertExplainerTxt{
-	color: white;
+	color: black;
 	text-align: left center;
 	padding-top: .5em;
 	padding-left: .5em;
@@ -296,7 +302,7 @@ body{
 	line-height: 1.95em;
 }
 #treatmentLink{
-	color:white;
+	color:black;
 	text-decoration: underline;
 	font-style: oblique;
 	font-weight: bold;
@@ -447,14 +453,14 @@ body{
 	color:rgb(60,139,164);
 }
 #whoWeHelp{
-	background-color: #f8f8f8;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,d2ebf9+100;Blue+3D+%2312 */
+background: rgb(254,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(254,255,255,1) 0%, rgba(210,235,249,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(254,255,255,1) 0%,rgba(210,235,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(254,255,255,1) 0%,rgba(210,235,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#d2ebf9',GradientType=0 ); /* IE6-9 */
+
 }
-
-
-
-
-
-
 
 
 /* Begin Services Page */
@@ -507,11 +513,6 @@ body{
 .servicesExplainerTxt{
 	text-align: left;
 }
-
-/* Begin Therapy Section */
-
-/* Begin Concussion Section */
-
 
 .form-control{
 	font-size: 12px;
@@ -604,7 +605,6 @@ body{
 	margin-left: 1em;
 	margin-right: 1em;
 }
-
 
 .appointmentsList > li{
 		margin-top: 0.8em;
@@ -707,6 +707,90 @@ font-size: 24px;
 	font-size: 1.3em;
 	height:40px;
 }
+
+
+
+/* Begin Concussion Page*/
+
+.concussionContainer{
+	font-family: SinkinSans-300Light.otf;
+	/*background-image: url("../img/checkerPattern.jpg");*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7fbfc+0,d9edf2+40,add9e4+100;Blue+3D+%231 */
+background: rgb(247,251,252); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(247,251,252,1) 0%, rgba(217,237,242,1) 40%, rgba(173,217,228,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=0 ); /* IE6-9 */
+
+}
+.concussionTitle{
+	text-align: center;
+	font-size: 2em;
+	font-family: SinkinSansSixBold;
+	color: black;
+	text-transform: uppercase;
+}
+.concussionSubsectionTitle{
+	text-align: center;
+	font-family: SinkinSans-300Light.otf;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	margin-top: 3em;
+	color: black;
+	font-size: 1.5em;
+	line-height: 1.8em;
+}
+.concussionContent{
+	font-family: SinkinSans-500Medium.otf;
+	text-align: left center;
+	color: black;
+	margin: 2em;
+	line-height: 1.4em;
+}
+table, th, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	position: center;
+}
+th, td {
+	padding: 5px;
+}
+table#t01 tr:nth-child(even){
+	background-color: #eee;
+}
+table#t01 tr:nth-child(odd){
+	background-color: #fff;
+}
+table#t01 th {
+	background-color: black;
+	color: white;
+}
+/*
+.concussionContainerSideLeft{
+	background-color: white;
+}
+.concussionContainerSideRight{
+	background-color: white;
+}
+*/
+.concussionMiddle{
+	position: center;
+	width: 50%;
+	background-color: white;
+}
+#checkersVideo{
+	position: center;
+	text-align: center;
+}
+/* 
+#checkersLogo{
+	height: 17em;
+	width: auto;
+	position: center;
+}
+*/
+
 @media screen and (max-width: 1500px) {
 	#roadMapToRecoveryStepOne{
 		margin-left: 5%;

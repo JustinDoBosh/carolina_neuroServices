@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carolina NeuroServices</title>
+  <title>Carolina NeuroServices Home Page</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/custom.min.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
 
 <body>
@@ -30,7 +30,7 @@
           <li class="dropdown" id="servicesDropDown">
         <a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>       
         <ul class="dropdown-menu" role="menu">
-                 <li class="hvr-shutter-out-horizontal"><a href="services.html#Testing">Testing</a></li>
+                <li class="hvr-shutter-out-horizontal"><a href="services.html#Testing">Testing</a></li>
                 <li class="hvr-shutter-out-horizontal"><a href="services.html#Therapy">Therapy</a></li>
                 <li class="hvr-shutter-out-horizontal"><a href="services.html#Treatment">Treatment</a></li>
               </ul>                
@@ -58,89 +58,72 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+<div class="concussionContainer col-xs-12 col-sm-12 col-md-12 col-lg-12"><!--Begin Concussion Container-->
+  <div class="col-sm-3 col-md-3 col-lg-3 concussionContainerSideLeft"></div> <!--Checker background on left side-->
+  <div class="col-sm-6 col-md-6 col-lg-6 concussionMiddle"><!--Middle section white background & content-->
+    <h2 class="concussionTitle">Concussion Awareness</h2>
+    <!-- <center><img src="img/checkersLogo.png" id="checkersLogo"></center> -->
+    <p class="concussionSubsectionTitle">The following is a PSA from the Charlotte Checkers:</p>
 
-<!-- Begin Appointments Section -->
-<section class="patientsContainer" id="appointmentsContainer">
-  <!--Main Section Title!-->
-  <center><a name="Appointments" class="appointmentsAnchorTag"><h2 class="appointmentsSectionTitle">Appointment Information</h2></a></center>
-  <!--Subsection Title!-->
-  <!--Subsection content!-->
-  <p class="appointmentsSubsectionTitle">If you are interested in making an appointment, please read over all of the information on this page prior to scheduling your appointment.</p>
-  <p class="appointmentsSubsectionContent">For an initial appointment, you will need to bring with you the following:</p>
-    <ul class="appointmentsList">
-      <li>Proper photo identification (i.e. driver’s license or school ID if under the age of 16).</li>
-      <li>Insurance card (primary and secondary if applicable).</li>
-      <li>Authorization number for your visit (call the ‘mental health’ side of your insurance to obtain this number).</li>
-      <li>Proper co-pay or payment for the appointment, as payment is expected at time of service unless proof of coverage through your insurance is shown. We accept Visa, Mastercard, cash, or check.</li>
-      <li>Your completed Carolina NeuroServices <a href="img/new_pt_forms1.pdf">Registration Packet</a></li>
-    </ul>
-
-
-  <div class="col-md-12" id="stairsContainer">
-    <div class="col-md-6 col-md-offset-3">
-      <img src="img/alert.png" class="pull-left" width="50" height="50" id="noStairsImg"/>
-      <p id="noStairsTxt">We are located on the second floor. Elevators are not available. If you have severe mobility issues, please contact the office at (704)366-9930.</p>
+    <div id="checkersVideo">
+      <video width="450" height="350" controls>
+      <source src="concussionVideo.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
     </div>
-  </div>
-  
-  
-</section><!-- End Appointments Section -->
 
+    <p class="concussionSubsectionTitle">Concussion Signs & Symptoms</p>
+    <p class="concussionContent">One or more of these signs and symptoms may indicate that a concussion has occurred. Remember that concussions can also occur with no obvious signs or symptoms. Any of the symptoms listed below should be taken seriously. Athletes who experience these signs or symptoms after a blow or jolt to the head should be kept from play until cleared by a health care professional.</p>
 
-<!-- Begin Insurance Section -->
-<section class="patientsContainer" id="insuranceContainer">
-<!-- Main Section Title !-->
-  <center><a name="Insurance" class="appointmentsAnchorTag"><h2 class="appointmentsSectionTitle">Insurance Information</h2></a></center>
+    <table id="t01">
+      <tr>
+        <th>Signs & Symptoms</th>
+      </tr>
+      <tr>
+        <td>Appearing dazed or stunned</td>
+      </tr>
+      <tr>
+        <td>Difficulty remembering, concentrating, or decision making</td>
+      </tr>
+      <tr>
+        <td>Getting lost or confused easily</td>
+      </tr>
+      <tr>
+        <td>Slowed thinking or speaking</td>
+      </tr>
+      <tr>
+        <td>Changes in behavior or personality</td>
+      </tr>
+      <tr>
+      <td>Inability to recall events prior to, or after a hit to the head</td>
+      </tr>
+      <tr>
+        <td>Headaches</td>
+      </tr>
+      <tr>
+        <td>Nausea</td>
+      </tr>
+      <tr>
+        <td>Feeling dizzy or uncoordinated</td>
+      </tr>
+      <tr>
+        <td>Sensitivity to light and sound</td>
+      </tr>
+      <tr>
+        <td>Loss of energy</td>
+      </tr>
+    </table>
 
-    <h4 class="appointmentsSubsectionTitle">Below is a comprehensive list of insurances we are in-network with:</h4>
-      <ul class="appointmentsList">
-        <li>Aetna Behavioral Health</li>
-        <li>BCBS NC (not HMO)
-        <li>BCBS SC (only mental health side = Companion Benefit Alternatives)</li>
-        <li>Carolinas Healthcare System (must go through Carolina Behavioral Health Alliance)</li>
-        <li>Cigna Behavioral Health</li>
-        <li>First Health </li>
-        <li>MedCost (including the former Health Care Savings)</li>
-        <li>Magellan Behavioral health</li>
-        <li>Medicare</li>
-        <li>NC State Employees</li>
-        <li>Private Health Care Systems</li>
-        <li>Tricare For Life/Champus</li>
-        <li>United Behavioral Health</li>
-      </ul>
-
-    <h4 class="appointmentsSubsectionTitle">We are not in network with:</h4>
-      <ul class="appointmentsList">
-        <li>Humana</li>
-        <li>Coventry</li>
-        <li>Medicaid</li>
-        <li>Blue Medicare</li>
-        <li>Primary Physician Care</li>
-      </ul>
-
-    <h4 class="appointmentsSubsectionTitle">Please be sure to call the “mental health” side of your insurance prior to your first visit with Dr. Ewert for your authorization. Bring this number with you on your first visit! If you have any questions regarding your specific insurance, please feel free to call our office at (704)366-9930.</h4>
-
-
-
-  </div>
-
-</section>
-
-<div class="footerContainer">
-  <div class="row">
-  <hr>
-    <div class="col-lg-12" id="footerTxtContainer">
-      <center><p class="muted" id="footerTxt">© 2016 Carolina NueroServices. All rights reserved</p></center>
-    </div>
-  </div>
-</div>
+  </div><!-- End middle section content-->
+  <div class="col-sm-3 col-md-3 col-lg-3 concussionContainerSideRight"></div><!--Checker background on right side-->
+</div><!--End of Concussion Container-->
 
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/script.min.js"></script>
-<script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
 <!-- Google Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
