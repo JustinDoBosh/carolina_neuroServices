@@ -35,3 +35,7 @@ function logoutUser(){
 	myFirebaseRef.unauth();
 	window.location.assign("../index.html");
 }
+
+//cms
+
+$('#trumbowyg-demo').trumbowyg();
