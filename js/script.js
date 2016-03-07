@@ -85,10 +85,10 @@ function setWhatWeDoHeight(){
 }
 
 $(document).ready(function(){
-      setWhatWeDoHeight();
+      //setWhatWeDoHeight();
 });
 
 $(window).resize(function() {
-	setWhatWeDoHeight();
+	//setWhatWeDoHeight();
 });
 
