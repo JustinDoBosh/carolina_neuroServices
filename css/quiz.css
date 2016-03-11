@@ -32,7 +32,12 @@ body{
     z-order: 0;
 
 }
-
+#quizContainer{
+  margin-top: 2em;
+}
+#concussionPercentage{
+  font-size: 2.5em;
+}
 .stepwizard-step {
     display: table-cell;
     text-align: center;

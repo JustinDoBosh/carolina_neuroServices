@@ -715,20 +715,36 @@ font-size: 24px;
 	height:40px;
 }
 
-
-
+#center{
+	text-align: center;
+}
+#hide{
+	display: none;
+}
+#recomendationHeader{
+	font-weight: bold;
+}
+.whiteBackgrnd{
+	background-color: #ffffff;
+	margin-bottom: 4em;
+}
 /* Begin Concussion Page*/
 
 .concussionContainer{
 	font-family: SinkinSans-300Light.otf;
+	margin-top: 1em;
 	/*background-image: url("../img/checkerPattern.jpg");*/
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7fbfc+0,d9edf2+40,add9e4+100;Blue+3D+%231 */
-background: rgb(247,251,252); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(247,251,252,1) 0%, rgba(217,237,242,1) 40%, rgba(173,217,228,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=0 ); /* IE6-9 */
+	background: rgb(247,251,252); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(247,251,252,1) 0%, rgba(217,237,242,1) 40%, rgba(173,217,228,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=0 ); /* IE6-9 */
 
+}
+.concussionWrapper{
+	text-align: center;
+	float: none;
 }
 .concussionTitle{
 	text-align: center;
@@ -738,21 +754,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', end
 	text-transform: uppercase;
 }
 .concussionSubsectionTitle{
-	text-align: center;
+	text-align: left;
 	font-family: SinkinSans-300Light.otf;
 	margin-top: 2em;
 	margin-bottom: 1em;
-	margin-top: 3em;
 	color: black;
 	font-size: 1.5em;
 	line-height: 1.8em;
 }
 .concussionContent{
 	font-family: SinkinSans-500Medium.otf;
-	text-align: left center;
 	color: black;
 	margin: 2em;
-	line-height: 1.4em;
+	float: none;
 }
 table, th, td {
 	border: 2px solid black;
