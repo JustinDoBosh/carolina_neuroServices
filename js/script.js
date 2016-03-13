@@ -48,13 +48,37 @@ function setDrEwertHeightDiv(){
 
 $(document).ready(function(){
 	clickOrHover();
+	setConcussionHeight();
+});
+
+$(document).load(function(){
+	setConcussionHeight();
 });
 
 $(window).resize(function () {
     clickOrHover();
+    setConcussionHeight();
 });
 
 
+function setConcussionHeight(){
+
+	var windowWidth = $(window).width();
+
+	if(windowWidth < 1200){
+		var concussSigns = $("#concussSigns").height();
+		var concussVid = $("#concussVid").height();
+		var concussSpace = 65;
+
+		console.log("concussSigns: " + concussSigns);
+		console.log("concussVid: " + concussVid);
+
+		var concussHeight = concussSigns + concussVid + concussSpace;
+
+		console.log("concussHeight: " + concussHeight);
+		$("#concussContentWrapper").css("height", concussHeight);
+	}
+}
 
 
 function setWhatWeDoHeight(){
@@ -83,12 +107,4 @@ function setWhatWeDoHeight(){
 		console.log(windowWidth);
 	}
 }
-
-$(document).ready(function(){
-      //setWhatWeDoHeight();
-});
-
-$(window).resize(function() {
-	//setWhatWeDoHeight();
-});
 
